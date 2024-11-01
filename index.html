@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+    
+<body>
+
+
+    <!-- container : -->
+    <div class="overflow-x-hidden"> 
+
+        <!-- header : -->
+        <header>
+            <div class="bg-white h-[56px] z-[1] w-screen border-b-[1px] border-b-[rgb(214,217,220)] flex justify-center items-center fixed top-[0]">
+
+                <!-- div1 : menu -->
+                <div class="h-3 w-4 flex flex-col justify-between box-border" >
+                    <div class="bg-[#626b74] h-1/5 outline-none"></div>
+                    <div class="bg-[#626b74] h-1/5 outline-none"></div>
+                    <div class="bg-[#626b74] h-1/5 outline-none"></div>
+                </div>
+
+                <!-- div2 : logo -->
+                <div>
+                    <a href="#">
+                        <div class="flex items-center mr-[20px] ml-[13px]">
+                            <img class="h-12 w-12" src="header_logo.png">
+                            <div style="font-size: 21px;">stack&nbsp;</div>
+                            <div class="font-extrabold" style="font-size: 21px;">overflow</div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- div3 : links -->
+                <div class="flex justify-between w-52 box-border mr-[22px]" >
+                    <a href="#" class="text-sm font-normal opacity-55">About</a>
+                    <a href="#" class="text-sm font-normal opacity-55">Products</a>
+                    <a href="#" class="text-sm font-normal opacity-55">OverflowAI</a>
+                </div>
+
+                <!-- div4 : search tab -->
+                <div class="flex items-center border-[1px] border-[rgb(186,191,197)] gap-x-1.5 p-1.5 rounded-[6px] mr-[8px]">
+                    <img class="h-4 w-4" src="header_search.png" alt="">
+                    <input class="text-sm font-normal opacity-100 w-[650px]" type="text" placeholder="Search...">
+                </div>
+
+                <!-- div5 : buttons -->
+                <div class="flex">
+                    <a href="#"><div class="border-[1.5px] rounded-[6px] h-[35px] px-[10.4px] py-[8px] flex justify-center items-center text-sm text-[#1c75cf] border-[#1c75cf] mr-[4px]">Log in</div></a>
+                    <a href="#"><div class="border-[1.5px] rounded-[6px] h-[35px] px-[10.4px] py-[8px] flex justify-center items-center text-sm bg-[#1c75cf] border-[#1c75cf] text-white">Sign up</div></a>
+                </div>
+
+            </div>
+
+        </header>
+
+        <!-- el1 box : -->
+        <div class="h-[1750px]">
+        <div class="border-2 border-black h-[1000px] m-[48px] rounded-[8px] relative top-[55px]" style="background-image:linear-gradient(rgb(12,13,14) 0%, rgb(59,64,69) 130%)">
+
+            <!-- 2 boxes : -->
+            <div class="flex justify-center p-[47px] gap-[30px]">
+                <div class="w-[422px] h-[253px] p-[24px] rounded-[8px] bg-[rgb(251,219,193)] flex flex-col items-center">
+                    <img class="w-[55px] h-[55px] mb-[11px]" src="el1_search.png" alt="">
+                    <div class="text-[18px] text-center font-[300] text-[rgb(12,13,14)] px-[24px]">Find the best answer to your technical question, help others answer theirs</div>
+                    <button class="font-[450] text-[14px] text-[white] bg-[rgb(231,112,13)] py-[12px] px-[32px] mt-[14px] rounded-[6px]">Join the community</button>
+                    <div class="text-[rgb(59,64,69)] text-[12px] font-[350] mt-[11px]">or <a class="underline" href="#">search content</a></div>
+                </div>
+                <div class="w-[422px] h-[253px] p-[24px] rounded-[8px] bg-[rgb(214,232,250)] flex flex-col items-center">
+                    <img class="w-[55px] h-[55px] mb-[11px]" src="el1_lock.png" alt="">
+                    <div class="text-[18px] text-center font-[300] text-[rgb(12,13,14)] px-[24px]">Want a secure, private space for your technical knowledge?</div>
+                    <button class="font-[450] text-[14px] text-[white] bg-[rgb(27,117,208)] py-[12px] px-[32px] my-[14px] rounded-[6px]">Discover Teams</button>
+                </div>
+            </div>
+
+            <!-- big text : -->
+            <div class="gap-[20px] mt-[38px]">
+                <div class="text-[white] flex justify-center items-center text-[55px] font-[700] leading-[71.5px]">Every <p class="text-[rgb(231,112,13)]">&nbsp;developer&nbsp;</p> has a<br/></div>
+                <div class="text-[white] flex justify-center items-center text-[55px] font-[700] leading-[71.5px]">tab open to Stack Overflow</div>
+            </div>
+
+            <!-- grey line : -->
+            <div class="flex justify-center my-[55px]"><div class="bg-[rgb(99,107,116)] rounded-[1000px] h-[8px] w-[70px]"></div></div>
+
+            <!-- stats div : -->
+            <div class="flex justify-center gap-[40px]">
+                <div class="flex flex-col text-center w-[225px]">
+                    <h1 class="text-[white] text-[21px] font-[600]">100+ million</h1>
+                    <p class="text-[rgb(167,173,180)] text-[15px] font-[300]">monthly visitors to Stack Overflow & Stack Exchange</p>
+                </div>
+                <div class="flex flex-col text-center w-[225px]">
+                    <h1 class="text-[white] text-[21px] font-[600]">45.1+ billion</h1>
+                    <p class="text-[rgb(167,173,180)] text-[15px] font-[300]">Times a developer got help since 2008</p>
+                </div>
+                <div class="flex flex-col text-center w-[225px]">
+                    <h1 class="text-[white] text-[21px] font-[600]">191% ROI</h1>
+                    <p class="text-[rgb(167,173,180)] text-[15px] font-[300]">from companies using Stack Overflow for Teams</p>
+                </div>
+                <div class="flex flex-col text-center w-[225px]">
+                    <h1 class="text-[white] text-[21px] font-[600]">5,000+</h1>
+                    <p class="text-[rgb(167,173,180)] text-[15px] font-[300]">Stack Overflow for Teams instances active every day</p>
+                </div>
+            </div>
+
+            <!-- 2 big boxes : -->
+            <div class="flex justify-center my-[70px] gap-[32px]">
+
+                <!-- 1st box : -->
+
+                <div class="flex flex-col items-center justify-center h-[890px] w-[508px] rounded-[8px]" style="background-image:linear-gradient(0deg, rgb(246, 177, 121) 30%, rgb(255, 255, 255))">
+                    <!-- logo -->
+                    <div class="flex justify-center mt-[48px]">
+                        <a href="#">
+                            <div class="flex items-center mr-[20px] ml-[13px]">
+                                <img class="h-12 w-12" src="header_logo.png">
+                                <div style="font-size: 24px;">stack&nbsp;</div>
+                                <div class="font-extrabold" style="font-size: 24px;">overflow</div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- picture : -->
+                    <div class="w-[580px] h-[300px] mt-[35px] ml-[25px]">
+                        <img src="el1_bb_1.svg" alt="">
+                    </div>
+                    <!-- text : -->
+                    <div class="flex flex-col items-center">
+                        <p class="text-[rgb(12,13,14)] text-[27px] font-[700] border-box p-[48px] text-center mt-[10px] relative top-[58px]">A public platform building the definitive collection of coding questions & answers</p>
+                        <p class="text-center text-[rgb(59,64,69)] font-[400] p-[48px] text-[19px] relative bottom-[30px]">A community-based space to find and contribute answers to technical challenges, and one of the most popular websites in the world.</p>
+                            <!-- button : -->
+                        <button class="font-[500] text-[14px] text-[white] bg-[rgb(231,112,13)] py-[12px] px-[32px] mt-[14px] rounded-[6px] relative bottom-[60px]">Join the community</button>
+                        <p class="text-[rgb(99,107,116)] text-[13px] text-center relative bottom-[48px]">or <a class="underline" href="#">search content</a></p>
+                    </div>
+                </div>
+
+                <!-- 2nd box : -->
+
+                <div class="flex flex-col items-center justify-center h-[890px] w-[508px] rounded-[8px]" style="background-image:linear-gradient(0deg, rgb(146, 194, 242) 30%, rgb(255, 255, 255))">
+                    <!-- logo : -->
+                    <div class="flex justify-center mt-[48px]">
+                        <a href="#">
+                            <div class="flex items-center mr-[20px] ml-[13px]">
+                                <img class="h-12 w-12" src="header_logo.png">
+                                <div class="font-extrabold" style="font-size: 24px;"> &nbsp;&nbsp;FOR TEAMS</div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- picture : -->
+                    <div class="w-[580px] h-[300px] mt-[35px] ml-[25px]">
+                        <img src="el1_bb_2.svg" alt="">
+                    </div>
+                    <!-- text : -->
+                    <div class="flex flex-col items-center">
+                        <p class="text-[rgb(12,13,14)] text-[27px] font-[700] border-box p-[48px] text-center mt-[10px] relative top-[58px]">
+                            A private collaboration & knowledge sharing SaaS platform for companies
+                        </p>
+                        <p class="text-center text-[rgb(59,64,69)] font-[400] p-[48px] text-[19px] relative bottom-[30px]">
+                            A web-based platform to increase productivity, decrease cycle times, accelerate time to market, and protect institutional knowledge.
+                        </p>
+                        <p class="text-[rgb(59,64,69)] text-[13px] text-center relative bottom-[68px]">Get started</p>
+                            <!-- button : -->
+                        <div class="flex justify-center gap-[8px] relative bottom-[72px]">
+                            <button class="font-[500] text-[14px] text-[white] bg-[rgb(27,117,208)] py-[12px] px-[12px] my-[14px] rounded-[6px]">
+                                For large organizations
+                            </button>
+                            <button class="font-[500] text-[14px] text-[white] bg-[rgb(27,117,208)] py-[12px] px-[12px] my-[14px] rounded-[6px]">
+                                For small teams
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div></div>
+
+        <!-- el2 logos : -->
+        <div>
+
+            <!-- text -->
+            <div class="text-[rgb(99,107,116)] text-[19px] font-[400] flex justify-center mt-[70px]">
+                Thousands of organizations around the globe use Stack Overflow for Teams
+            </div>
+
+            <!-- images : -->
+            <div class="h-[110px]">
+
+            </div>
+
+            <!-- 4 divs : -->
+            <div class="flex justify-center align-center mt-[20px]">
+                <div class="bg-[rgb(186,191,197)] h-[6px] mx-[3.5px] cursor-pointer w-[26px] rounded-[1000px] "></div>
+                <div class="bg-[rgb(186,191,197)] h-[6px] mx-[3.5px] cursor-pointer w-[26px] rounded-[1000px] "></div>
+                <div class="bg-[rgb(186,191,197)] h-[6px] mx-[3.5px] cursor-pointer w-[26px] rounded-[1000px] "></div>
+                <div class="bg-[rgb(186,191,197)] h-[6px] mx-[3.5px] cursor-pointer w-[26px] rounded-[1000px] "></div>
+            </div>
+
+        </div>
+
+        <!-- images : -->
+        <div class="flex justify-center align-center mt-[70px] relative top-[100px]">
+            <img class="w-[300px] h-[200px] rounded-[10px] border-top-[1px] border-top-red relative top-[75px]" src="el3_1_img1.png" alt="">
+            <img class="w-[600px] rounded-[10px] border-top-[1px] border-top-red" src="el3_1_img2.png" alt="">
+            <img class="w-[300px] h-[200px] rounded-[10px] border-top-[1px] border-top-red relative top-[75px] " src="el3_1_img3.png" alt="">
+        </div>
+
+        <!-- el3 long black box : -->
+
+        <div class="h-[2980px] rounded-[8px] mx-[48px]" style="background-image:linear-gradient(rgb(12, 13, 14) 0%, rgb(59, 64, 69) 130%)">
+
+            <!-- logo, heading, button -->
+            <div class="flex flex-col justify-center items-center">
+
+                <img class="w-[186px] mt-[160px]" src="el3_logo_first.png" alt=""> <br/>
+                <div class="text-white text-[27px] font-[700] text-center flex mx-[400px]"><p>Capture your company's knowledge and context in a discoverable format to <span class="text-[rgb(231,112,3)]">unblock your team</span></p></div><br/><br/>
+                <button class="text-white bg-[rgb(27,117,208)] rounded-[6px] cursor-pointer text-[14px] font-[450] px-[32px] py-[12px] relative bottom-[16px]">Take a tour of Teams</button>
+
+            </div>
+
+            <!-- 3 features : -->
+            <div class="flex justify-center items-center mt-[50px]">
+                <div class="flex flex-col items-center px-[95px] relative left-[130px] gap-[15px]">
+                    <img class="w-[24px] h-[24px]" src="tick.png" alt="">
+                    <h2 class="text-white text-[22px]">Increase productivity</h2>
+                    <p class="text-[rgb(167,173,180)] text-[17px] text-center">If somebody somewhere has the right answer, suddenly you have it too. Collaborate better in a remote-first world.</p>
+                </div>
+                <div class="flex flex-col items-center px-[95px] gap-[15px]">
+                    <img class="w-[24px] h-[24px]" src="tick.png" alt="">
+                    <h2 class="text-white text-[22px]">Accelerate time to market</h2>
+                    <p class="text-[rgb(167,173,180)] text-[17px] text-center">Shorten the time between initial idea and complete product. Take delays and misinformation out of the equation.</p>
+                </div>
+                <div class="flex flex-col items-center px-[95px] relative right-[130px] gap-[15px]">
+                    <img class="w-[24px] h-[24px]" src="tick.png" alt="">
+                    <h2 class="text-white text-[22px]">Protect institutional knowledge</h2>
+                    <p class="text-[rgb(167,173,180)] text-[17px] text-center">People come and people go, but if you capture their contributions in one central place, that expertise sticks around.</p>
+                </div>
+            </div>
+
+            <!-- thin line : -->
+            <div class="bg-[rgb(189,193,198)] h-[0.25px] w-[1100px] m-auto my-[90px] opacity-[0.2]"></div>
+
+            <!-- technologies : -->
+            <div>
+                <!-- text -->
+                <div class="text-white flex flex-col items-center gap-[10px]">
+                    <p class="text-[36px] font-[600]">Ensure your company stays on course</p>
+                    <p class="text-[18px] font-[200]">Here are just a few types of technologists that we help.</p>
+                </div>
+                <!-- boxes -->
+                <div>
+
+                </div>
+            </div>
+
+            <!-- billing : -->
+            <div class="h-[590px] w-[100%] mt-[530px]">
+
+                <p class="text-[white] cursor-pointer text-[15px] relative left-[86px] top-[10.5px]">Annual billing discount</p>
+
+                <div class="flex justify-center items-end gap-[20px]">
+
+                    <div class="bg-white w-[350px] h-[530px] rounded-[8px] p-[25px]">
+                        <!-- colored box -->
+                        <p class="bg-[rgb(231,112,13)] py-[4px] w-[46px] text-center rounded-[6px] text-[15px] text-[white] mb-[17px]">Free</p>
+                        <!-- heading -->
+                        <h2 class="pt-[5px] text-[27px] font-[650]">Free</h2>
+                        <p class="text-[rgb(167,173,180)] text-[15px] font-[400]"> No credit card required</p>
+                        <!-- line -->
+                        <div class="border-[0.2px] my-[22px] border-[rgb(231,112,13)]"></div>
+                        <!-- text -->
+                        <ul>
+                            <li class="text-[14px]">ChatOps integrations - Slack & Microsoft Teams</li>
+                            <li class="my-[10px] text-[14px]">Your own private space hosted on stackoverflowteams.com</li>
+                            <li class="text-[14px]">Structured and searchable knowledge base</li>
+                        </ul>
+                        <!-- button -->
+                        <button><div class="bg-[rgb(231,112,13)] rounded-[6px] py-[10px] w-[300px] text-[14px] text-[white] font-[500] mt-[122px]">Create a free Team</div></button>
+                        <!-- last text-->
+                        <p class="text-[rgb(167,173,180)] text-[14px] font-[425] text-center pt-[10px]">Always free up to 50 teammates</p>
+                    </div>
+
+
+                    <div class="bg-white w-[350px] h-[530px] rounded-[8px] p-[25px]">
+                        <!-- colored box -->
+                        <p class="bg-[rgb(167,173,180,0.65)] py-[4px] w-[52px] text-center rounded-[6px] text-[15px] text-[black] mb-[17px]">Basic</p>
+                        <!-- heading -->
+                        <h2 class="pt-[5px] text-[27px] font-[650]">$6.50 USD</h2>
+                        <p class="text-[rgb(167,173,180)] text-[15px] font-[400]">per teammate / month</p>
+                        <!-- line -->
+                        <div class="border-[0.2px] my-[22px] border-[rgb(200,204,208)]"></div>
+                        <!-- text -->
+                        <ul>
+                            <li class="text-[14px]">Single sign-on (SSO) with SAML + Okta integration</li>
+                            <li class="my-[10px] text-[14px]">ChatOps integrations - Slack & Microsoft Teams</li>
+                            <li class="text-[14px] my-[10px]">Your own private space hosted on stackoverflowteams.com</li>
+                            <li class="text-[14px]">Structured and searchable knowledge base</li>
+                        </ul>
+                        <!-- button -->
+                        <button><div class="bg-[rgb(200,204,208,0.5)] rounded-[6px] py-[10px] w-[300px] text-[14px] text-[black] font-[500] mt-[69px]">Get started</div></button>
+                        <!-- last text-->
+                        <p class="text-[rgb(167,173,180)] text-[14px] font-[425] text-center pt-[10px]">Up to 250 teammates</p>
+                    </div>
+
+
+                    <div class="bg-white w-[350px] h-[569px] rounded-[8px] px-[25px]">
+                        <p class="text-[13px] font-[600] relative top-[8px] left-[-9px]">RECOMMENDED</p>
+                        <!-- colored box -->
+                        <p class="bg-[rgb(59,64,69)] py-[4px] w-[80px] text-center rounded-[6px] text-[15px] text-[white] mb-[17px] mt-[45px]">Business</p>
+                        <!-- heading -->
+                        <h2 class="pt-[5px] text-[27px] font-[650]">$13.50 USD</h2>
+                        <p class="text-[rgb(167,173,180)] text-[15px] font-[400]">per teammate / month</p>
+                        <!-- line -->
+                        <div class="border-[0.2px] my-[22px] border-[rgb(59,64,69)]"></div>
+                        <!-- text -->
+                        <ul>
+                            <li class="text-[14px] text-[rgb(99,107,116)]">All the features of Basic plus…</li>
+                            <li class="text-[14px] my-[10px]">Long-form knowledge with Articles</li>
+                            <li class="my-[10px] text-[14px]">Additional integrations — ChatOps, Jira, GitHub & Okta</li>
+                            <li class="my-[10px] text-[14px]">Group content together into Collections</li>
+                            <li class="my-[10px] text-[14px]">Usage and adoption metrics</li>
+                            <li class="my-[10px] text-[14px]">Priority customer support</li>
+                            <li class="text-[14px]">Content Health tools</li>
+                        </ul>
+                        <!-- button -->
+                        <button><div class="bg-[rgb(59,64,69)] rounded-[6px] py-[10px] w-[300px] text-[14px] text-[white] font-[500] mt-[18.5px]">Get started</div></button>
+                        <!-- last text-->
+                        <p class="text-[rgb(167,173,180)] text-[14px] font-[425] text-center pt-[10px]">Unlimited teammates</p>
+                    </div>
+
+
+                    <div class="bg-white w-[350px] h-[530px] rounded-[8px] p-[25px]">
+                        <!-- colored box -->
+                        <p class="bg-[rgb(43,45,110)] py-[4px] w-[90px] text-center rounded-[6px] text-[15px] text-[white] mb-[17px]">Enterprise</p>
+                        <!-- heading -->
+                        <h2 class="pt-[5px] text-[27px] font-[650]">Custom pricing</h2>
+                        <p class="text-[rgb(167,173,180)] text-[15px] font-[400]">Let's talk about what you need</p>
+                        <!-- line -->
+                        <div class="border-[0.2px] my-[22px] border-[rgb(43,45,110)]"></div>
+                        <!-- text -->
+                        <ul>
+                            <li class="text-[14px] text-[rgb(99,107,116)]">Premium features of Business plus...</li>
+                            <li class="text-[14px] my-[10px]">Unlimited Teams within your instance</li>
+                            <li class="my-[10px] text-[14px]">Flexible hosting options — cloud or on-premises</li>
+                            <li class="my-[10px] text-[14px]">Robust read and write API</li>
+                            <li class="my-[10px] text-[14px]">Your own customer success and community building representative</li>
+                            <li class="text-[15.5px]">99.5% uptime SLA and priority support</li>
+                        </ul>
+                        <!-- button -->
+                        <button><div class="bg-[rgb(43,45,110)] rounded-[6px] py-[10px] w-[300px] text-[14px] text-[white] font-[500] mt-[26px]">Create a free 
+                        Team</div></button>
+                        <!-- last text-->
+                        <p class="text-[rgb(167,173,180)] text-[14px] font-[425] text-center pt-[10px]">Always free up to 50 teammates</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- 4 horizontal boxes : -->
+            <div class="flex justify-center items-center gap-[20px] mt-[60px]">
+                <div class="w-[280px] h-[162px] border-[0.01px] border-[rgb(255,255,255,0.15)] rounded-[8px] flex text-center items-center p-[22.5px]">
+                    <p class="text-white text-[16px]">A Forrester Consulting study shows <span class="text-[rgb(27,117,208)] text-[21px] font-[600]">191% return on investment</span> with Stack Overflow for Teams.</p>
+                </div>
+                <div class="w-[280px] h-[162px] border-[0.01px] border-[rgb(255,255,255,0.15)] rounded-[8px] flex text-center items-center p-[22.5px]">
+                    <p class="text-white">The world's largest telecom firm <span class="text-[rgb(27,117,208)] text-[21px] font-[600]">saved $10M</span> in deflected support cases with our centralized knowledge base.</p>
+                </div>
+                <div class="w-[280px] h-[162px] border-[0.01px] border-[rgb(255,255,255,0.15)] rounded-[8px] flex text-center items-center p-[22.5px]">
+                    <p class="text-white">Subject-matter experts at software platform Unqork had <span class="text-[rgb(27,117,208)] text-[21px] font-[600]">27% more time</span> to work on projects after using Teams.</p>
+                </div>
+                <div class="w-[280px] h-[162px] border-[0.01px] border-[rgb(255,255,255,0.15)] rounded-[8px] flex flex-col text-center justify-center cursor-pointer px-[22.5px] pt-[30px] py-[13px]">
+                    <button class="text-white">You can save time and money with Stack Overflow for Teams.
+                        <button class="text-[rgb(27,117,208)] text-[13.5px] font-[550] w-[185px] h-[43px] px-[20px] py-[5px] m-auto border-[rgb(27,117,208)] border-[1px] rounded-[8px]">Calculate your ROI</button>
+                    </button>
+                </div>
+            </div>
+
+            <!-- tools & images : -->
+            <div class="flex flex-col items-center justify-center">
+                <!-- text -->
+                <div class="flex flex-col justify-center items-center text-center h-[470px] w-[729px] gap-[12px]">
+                    <p class="text-[34px] font-[600] text-white">Integrates with and improves other tools</p>
+                    <p class="text-[rgb(186,191,197)] text-[19px]">All plans come with integrations for ChatOps tools <a class="text-[rgb(27,117,208)]" href="#">Slack</a> & <a class="text-[rgb(27,117,208)]" href="#">Microsoft Teams</a> in order to cut down on pings, limit distractions and make the tools even more powerful. Business and Enterprise customers get access to Jira, GitHub & Okta integrations.</p>
+                </div>
+                <!-- logos -->
+                <div class="flex justify-center items-center gap-[17px] relative bottom-[128px]">
+                    <img src="el3_tools_1.webp" class="rounded-[6px] w-[70px] h-[70px] bg-white p-[10px]" alt="">
+                    <img src="el3_tools_2.png" class="rounded-[6px] w-[70px] h-[70px] bg-white p-[10px]" alt="">
+                    <img src="el3_tools_3.png" class="rounded-[6px] w-[70px] h-[70px] bg-white p-[10px]" alt="">
+                    <img src="el3_tools_4.png" class="rounded-[6px] w-[70px] h-[70px] bg-white p-[10px]" alt="">
+                    <img src="el3_tools_5.png" class="rounded-[6px] w-[70px] h-[70px] bg-white p-[10px]" alt="">
+                </div>
+            </div>
+
+            <!-- premium features : -->
+            <div class="flex justify-center">
+                <div class="text-[rgb(186,191,197)] text-[19px] mt-[10px]">Some of the premium features available with paid tiers</div>
+            </div>
+
+        </div>
+
+        <!-- el4 comment box : -->
+        <div class="flex justify-center align-center gap-[30px] mt-[170px] h-[400px]">
+            <div class="w-[300px] h-[400px] text-[16px] pr-[10px]">
+                <img class="w-[55px] h-[45px]" src="el4_comma.png" alt="">
+                <br/>
+                <p class="text-[rgb(59,64,69)]">Stack Overflow for Teams has been a resource for our entire company. Not only for developers to solve problems, it's also enabled our sales field to answer technical questions that help them close deals.</p><br/>
+                <div class="border-[0.1px] border-[rgb(59,64,69,0.2)] w-[247px]"></div><br/>
+                <section>
+                    <p class="font-[550]">Director of Product Management</p>
+                    <p class="text-[rgb(59,64,69)]">Microsoft</p>
+                </section>
+            </div>
+            <div class="w-[300px] h-[400px] text-[16px] pr-[10px]">
+                <img class="w-[55px] h-[45px]" src="el4_comma.png" alt="">
+                <br/>
+                <p class="text-[rgb(59,64,69)]">Engineers should help solve the hardest questions, the unknowns, where being familiar with how the product was built is essential. But we don't want to keep answering solved problems over and over again. That's where Stack Overflow for Teams really helps.</p><br/>
+                <div class="border-[0.1px] border-[rgb(59,64,69,0.2)] w-[174px]"></div><br/>
+                <section>
+                    <p class="font-[550]">Director of Engineering</p>
+                    <p class="text-[rgb(59,64,69)]">Elastic Cloud</p>
+                </section>
+            </div>
+            <div class="w-[300px] h-[400px] text-[16px] pr-[10px]">
+                <img class="w-[55px] h-[45px]" src="el4_comma.png" alt="">
+                <br/>
+                <p class="text-[rgb(59,64,69)]">As we started to use [Stack Overflow for Teams] and saw how nice it was to have a repository of information, we started to see it spread to other teams. Our customer support team started using it, our people success team started using it, next thing we knew, we had [Slack] integrations all over the place.</p><br/>
+                <div class="border-[0.1px] border-[rgb(59,64,69,0.2)] w-[90px]"></div><br/>
+                <section>
+                    <p class="font-[550]">Engineering</p>
+                    <p class="text-[rgb(59,64,69)]">Expensify</p>
+                </section>
+            </div>
+            <div class="w-[300px] h-[400px] text-[16px] pr-[10px]">
+                <img class="w-[55px] h-[45px]" src="el4_comma.png" alt="">
+                <br/>
+                <p class="text-[rgb(59,64,69)]">What we love about Stack Overflow for Teams is that it's a very dynamic tool…there's just so many ways to use this as a liaison between different teams and different knowledge bases.</p><br/>
+                <div class="border-[0.1px] border-[rgb(59,64,69,0.2)] w-[137px]"></div><br/>
+                <section>
+                    <p class="font-[550]">Software Engineer</p>
+                    <p class="text-[rgb(59,64,69)]">Box</p>
+                </section>
+            </div>
+        </div>
+
+        <!-- el5 additional products : -->
+        <div class="h-[875px] flex flex-col justify-center items-center box-border">
+            <!-- logo -->
+            <div class="mb-[55px] mt-[79px]">
+                <a href="#">
+                    <div class="flex items-center">
+                        <img class="h-[60px] w-[60px]" src="header_logo.png">
+                        <div class="text-[29px] font-[300]">stack&nbsp;</div>
+                        <div class="font-extrabold" style="font-size: 29px;">overflow</div>
+                    </div>
+                </a>
+            </div>
+            <!-- heading -->
+            <div class="text-[rgb(12,13,14)] text-[29px] text-center px-[550px] mb-[15px]">Additional products that reach and engage developers & technologists…</div>
+            <!-- 3 boxes -->
+            <div class="mb-[35px]">
+                <div class="flex justify-center items-center"><div class="w-[389px] h-[166px] m-[16px] py-[35px] px-[24px] border-2 flex justify-center items-center">
+                    <a href="#">
+                        <div class="flex justify-center items-center mb-[7px] gap-[5px]">
+                            <img class="w-[43.5px] h-[43.5px]" src="header_logo.png" alt="">
+                            <span class="text-[18px] font-[750]">ADVERTISING</span>
+                        </div>
+                        <div class="text-[rgb(99,107,116)] text-[18px] text-center">
+                            <span>Reach the world's largest audience of developers and technologists</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="w-[389px] h-[166px] m-[16px] py-[35px] px-[24px] border-2 flex justify-center items-center">
+                    <a href="#">
+                        <div class="flex justify-center items-center mb-[7px] gap-[5px]">
+                            <img class="w-[43.5px] h-[43.5px]" src="header_logo.png" alt="">
+                            <span class="text-[18px] font-[750]">COLLECTIVES</span>
+                        </div>
+                        <div class="text-[rgb(99,107,116)] text-[18px] text-center">
+                            <span>Connecting communities with the specific technologies they use the most</span>
+                        </div>
+                    </a>
+                </div></div>
+                <div class="flex justify-center items-center"><div class="w-[389px] h-[166px] m-[16px] py-[35px] px-[24px] border-2 flex flex-col justify-center items-center">
+                    <a href="#">
+                        <div class="flex justify-center items-center mb-[7px] gap-[5px]">
+                            <img class="w-[43.5px] h-[43.5px]" src="header_logo.png" alt="">
+                            <span class="text-[18px] font-[750]">TALENT</span>
+                        </div>
+                        <div class="text-[rgb(99,107,116)] text-[18px] text-center">
+                            <span>Build your employer brand</span>
+                        </div>
+                    </a>
+                </div></div>
+            </div>
+            <!-- button -->
+            <div class="mb-[10px]"><button class="font-[600] text-[14px] text-[white] bg-[rgb(231,112,13)] py-[10px] rounded-[6px] w-[190px]">About the company</button></div>
+            <!-- link -->
+            <div><a class="text-[rgb(99,107,116)] text-[14px] font-[450]" href="#">Want to work here? <span class="text-[rgb(27,117,208)]">Current job openings</span></a></div>
+
+        </div>
+
+
+        <!-- el6 network -->
+        <div class="mx-[48px] h-[665px] bg-[rgb(12,59,106)] mt-[30px] rounded-[10px] flex flex-col justify-center items-center text-white">
+            <div class="text-[22px] font-[300] mb-[55px]">Stack<span class="font-[700]">Exchange</span></div>
+            <div class="text-[37px] text-center font-[500] px-[500px] mb-[23px] leading-[40px]">Explore technical topics and other disciplines across 170+ Q&A communities</div>
+            <div class="text-center text-[rgb(255,255,255,0.85)] text-[18px] px-[480px] mb-[30px] leading-[23px]">From Server Fault to Super User, much of the Stack Exchange network continues our mission to empower the world to develop technology through collective knowledge. Other sites on the Stack Exchange network further encourage knowledge sharing across topics such as cooking and medicine.</div>
+            <div class="text-black text-[14.5px] bg-[rgb(255,181,0)] rounded-[6px] px-[30px] py-[12px] font-[600]"><button>Explore the network</button></div>
+        </div>
+
+        <!-- el7 create team : -->
+        <div class="flex justify-center items-center py-[68px] gap-[20px]">
+            <img class="w-[52px] h-[52px]" src="el7_lock.png" alt="">
+            <span class="text-[17px]">Build a <span class="font-semibold">private community</span> to share technical or non-technical knowledge.</span>
+            <button class="border-[rgb(27,117,208)] text-[rgb(27,117,208)] border-[1.3px] rounded-[6px] text-[14px] px-[30px] py-[10px] font-[600]">Create a free Team</button>
+        </div>
+
+        <!-- el8 footer : -->
+        <div class="h-[320px] py-[30px] bg-black border-b-[1px] border-b-white flex justify-center items-start text-[rgb(186,191,197)] gap-[90px]">
+            <div class="w-[55px] h-[55px]"><img src="header_logo.png" alt=""></div>
+            <div class="flex flex-col gap-[12px]">
+                <p class="text-white text-[13px] font-[500]">STACK OVERFLOW</p>
+                <ul class="text-[12.5px] leading-[25px]">
+                    <li>Questions</li>
+                    <li>Help</li>
+                </ul>
+            </div>
+            <div class="flex flex-col gap-[12px]">
+                <p class="text-white text-[13px] font-[500]">PRODUCTS</p>
+                <ul class="text-[12.5px] leading-[25px]">
+                    <li>Teams</li>
+                    <li>Advertising</li>
+                    <li>Collectives</li>
+                    <li>Talent</li>
+                </ul>
+            </div>
+            <div class="flex flex-col gap-[12px]">
+                <p class="text-white text-[13px] font-[500]">COMPANY</p>
+                <ul class="text-[12.5px] leading-[25px]">
+                    <li>About</li>
+                    <li>Press</li>
+                    <li>Work Here</li>
+                    <li>Legal</li>
+                    <li>Privacy Policy</li>
+                    <li>Terms of Service</li>
+                    <li>Contact Us</li>
+                    <li>Cookie Settings</li>
+                    <li>Cookie Policy</li>
+                </ul>
+            </div>
+            <div class="flex flex-col gap-[12px]">
+                <p class="text-white text-[13px] font-[500]">STACK EXCHANGE NETWORK</p>
+                <ul class="text-[12.5px] leading-[25px]">
+                    <li>Technology</li>
+                    <li>Culture & recreation</li>
+                    <li>Life & arts</li>
+                    <li>Science</li>
+                    <li>Professional</li>
+                    <li>Business</li>
+                    <li><br/></li>
+                    <li>API</li>
+                    <li>Data</li>
+                </ul>
+            </div>
+            <div class="flex flex-col items-start text-[12.5px]">
+                <div class="flex items-center gap-[12px]">
+                    <span>Blog</span>
+                    <span>Facebook</span>
+                    <span>Twitter</span>
+                    <span>LinkedIn</span>
+                    <span>Instagram</span>
+                </div>
+                <br><br><br><br><br><br><br><br><br><br>
+                <div>
+                    Site design / logo © 2024 Stack Exchange Inc; user<br/> contributions licensed under CC BY-SA.<br/>rev 2024.5.22.9600
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+</body>
+
+
+</html>
